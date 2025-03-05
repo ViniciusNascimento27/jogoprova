@@ -18,6 +18,12 @@ class Raquete {
     
     desenhar() {
         ctx.fillStyle = "blue";
-        ctx.fillRect(this.x, this.y, this.largura)
+        ctx.fillRect(this.x, this.y, this.largura,this.altura); 
+    }
+
+    mover() {
+        this.x += this.x = 0;
+        if (this.x + this.largura > tela.widht) this.x = tela.widht - this.largura;
+        if (this.x + this.largura > tela.widht) this.x = tela.widht- this.largura;
     }
 }
