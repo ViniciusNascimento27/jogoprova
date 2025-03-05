@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: black;
+        }
+        canvas {
+            background-color: beige;
+            display: block;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="telaJogo" width="500" height="350"></canvas>
+    <p>Pontuação: <span id="pontuacao">0</span></p>
+    <p id="fimDeJogo" style="display: none; color: red;font-size: 20px;">GameOver</p>    
+    <button id="botaoReiniciar" onclick="reiniciarJogo()">Reiniciar</button>
+</body>
+</html>
